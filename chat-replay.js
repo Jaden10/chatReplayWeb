@@ -9,7 +9,7 @@ let timerInterval;
 // 读取 JSON 文件并解析
 async function loadChatData() {
   const response = await fetch(
-    "【ストグラ】6日目 本署に配属されました 狼恋エギ【ローレン・イロアス⧸にじさんじ】-byGXWheGB8o.live_chat.json"
+    "【ストグラ】7日目  銀行ユニオンどこでも来い。 狼恋エギ【ローレン・イロアス⧸にじさんじ】-CgBcKnHH7WQ.live_chat.json"
   );
   const chatLines = await response.text();
 
