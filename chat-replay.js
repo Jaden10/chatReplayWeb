@@ -6,11 +6,14 @@ let chatIndex = 0;
 let maxDuration = 0;
 let timerInterval;
 
+const fileName =
+  "【ストグラ】7日目  銀行ユニオンどこでも来い。 狼恋エギ【ローレン・イロアス⧸にじさんじ】-CgBcKnHH7WQ.live_chat.json";
+
+document.getElementById("fileName").innerHTML = fileName;
+
 // 读取 JSON 文件并解析
 async function loadChatData() {
-  const response = await fetch(
-    "【ストグラ】7日目  銀行ユニオンどこでも来い。 狼恋エギ【ローレン・イロアス⧸にじさんじ】-CgBcKnHH7WQ.live_chat.json"
-  );
+  const response = await fetch(fileName);
   const chatLines = await response.text();
 
   chatData = chatLines
