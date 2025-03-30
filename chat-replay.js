@@ -7,7 +7,7 @@ let maxDuration = 0;
 let timerInterval;
 
 const fileName =
-  "【ストグラ】8日目  出勤しました 狼恋エギ【ローレン・イロアス⧸にじさんじ】-PBOp_TOyM3A.live_chat.json";
+  "【ストグラ】9日目  エギ a.k.a ダンプルトア【ローレン・イロアス⧸にじさんじ】-alC1cHkQNjg.live_chat.json;
 
 document.getElementById("fileName").innerHTML = fileName;
 
