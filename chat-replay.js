@@ -7,7 +7,7 @@ let maxDuration = 0;
 let timerInterval;
 
 const fileName =
-  "【ストグラ】14日目  2か月ぶりに起きたらすべて忘れてた男【ローレン・イロアス⧸にじさんじ】-2ciAkThRIro.live_chat.json";
+  "【ストグラ】15日目  来いよ、パシフィック。【ローレン・イロアス⧸にじさんじ】-9VFijPkCcbo.live_chat.json";
 
 document.getElementById("fileName").innerHTML = fileName;
 
